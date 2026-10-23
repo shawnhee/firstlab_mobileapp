@@ -40,7 +40,7 @@ class Shawn extends StatelessWidget {
 
               const SizedBox(height: 20),
               const Text(
-                "Shawn",
+                "Shawn Hee",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
               ),
               Container(
