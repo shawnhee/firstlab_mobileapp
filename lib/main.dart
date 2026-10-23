@@ -41,7 +41,7 @@ class Shawn extends StatelessWidget {
               const SizedBox(height: 20),
               const Text(
                 "Shawn",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
               ),
               Container(
                 padding: const EdgeInsets.symmetric(
@@ -52,12 +52,94 @@ class Shawn extends StatelessWidget {
                   color: Colors.grey,
                   borderRadius: BorderRadius.circular(88.8888),
                 ),
-                child: Row(
+                child: const Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Icon(Icons.school, size: 17, color: Colors.yellow),
                     SizedBox(width: 4),
-                    Text("Student"),
+                    Text(
+                      "Student",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 40),
+              Padding(
+                padding: EdgeInsets.symmetric(
+                  horizontal: 20,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(color: Colors.purpleAccent),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/sanjay.png',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("80%"),
+                          const SizedBox(height: 10),
+                          Text("W Sanjay"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(color: Colors.purpleAccent),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/sanjay.png',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("80%"),
+                          const SizedBox(height: 10),
+                          Text("W Sanjay"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(color: Colors.purpleAccent),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/sanjay.png',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("80%"),
+                          const SizedBox(height: 10),
+                          Text("W Sanjay"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(color: Colors.purpleAccent),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assets/images/sanjay.png',
+                            width: 50,
+                          ),
+                          const SizedBox(height: 10),
+                          const Text("80%"),
+                          const SizedBox(height: 10),
+                          Text("W Sanjay"),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
